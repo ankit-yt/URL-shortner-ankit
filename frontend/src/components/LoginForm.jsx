@@ -67,13 +67,7 @@ const LoginForm = () => {
             />
           </div>
 
-          <div className="flex items-center justify-between text-sm text-gray-600">
-            <label className="flex items-center space-x-2">
-              <input type="checkbox" className="accent-blue-600" />
-              <span>Remember me</span>
-            </label>
-            <a href="#" className="text-blue-600 hover:underline">Forgot password?</a>
-          </div>
+        
 
           <button
             type="submit"
