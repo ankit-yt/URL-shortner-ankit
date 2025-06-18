@@ -275,7 +275,7 @@ function UrlForm() {
               {/* 📱 COMPACT MOBILE CARD VIEW */}
               <div className="sm:hidden space-y-2">
                 {userUrls.map((link) => {
-                  const finalUrl = "http://localhost:5000/" + link.short;
+                  const finalUrl = "https://url-shortner-ankit.onrender.com/" + link.short;
                   const type = link.type;
 
                   return (
