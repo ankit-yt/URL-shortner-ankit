@@ -217,7 +217,7 @@ function UrlForm() {
                   </thead>
                   <tbody>
                     {userUrls.map((link) => {
-                      const finalUrl = "http://localhost:5000/" + link.short;
+                      const finalUrl = "https://url-shortner-ankit.onrender.com/" + link.short;
                       const type = link.type;
 
                       return (
